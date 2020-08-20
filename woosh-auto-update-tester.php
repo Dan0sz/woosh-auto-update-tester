@@ -3,7 +3,7 @@
  * @formatter:off
  * Plugin Name: WoOSH! Auto Update Tester
  * Description: A plugin which makes it easier to test automatic updates for Easy Digital Downloads Software Licensing.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Daan van den Bergh
  * Author URI: https://daan.dev
  * Text Domain: woosh-auto-update-tester
@@ -15,7 +15,6 @@
  */
 define('WOOSH_AUTO_UPDATE_TESTER_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WOOSH_AUTO_UPDATE_TESTER_PLUGIN_FILE', __FILE__);
-define('WOOSH_AUTO_UPDATE_TESTER_PLUGIN_VERSION', '1.0.0');
 
 /**
  * Takes care of loading classes on demand.
