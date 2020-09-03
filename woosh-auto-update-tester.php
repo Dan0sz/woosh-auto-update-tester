@@ -31,11 +31,11 @@ function woosh_auto_update_tester_autoload($class)
         return;
     }
 
-    if (!class_exists('Woosh_Autoloader')) {
-        require_once(WOOSH_AUTO_UPDATE_TESTER_PLUGIN_DIR . 'woosh-autoload.php');
+    if (!class_exists('FFWP_Autoloader')) {
+        require_once(WOOSH_AUTO_UPDATE_TESTER_PLUGIN_DIR . 'ffwp-autoload.php');
     }
 
-    $autoload = new Woosh_Autoloader($class);
+    $autoload = new FFWP_Autoloader($class);
 
     return include WOOSH_AUTO_UPDATE_TESTER_PLUGIN_DIR . 'includes/' . $autoload->load();
 }
