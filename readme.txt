@@ -1,6 +1,6 @@
-=== WoOSH! Auto Update Tester ===
+=== FFWP Auto Update Tester ===
 Contributors: DaanvandenBergh
-Tags: WoOSH!, Easy Digital Downloads, Software Licensing, Automatic Updates, Tester
+Tags: FFWP, Easy Digital Downloads, Software Licensing, Automatic Updates, Tester
 Requires at least: 5.1
 Tested up to: 5.5
 Stable tag: 1.0.2

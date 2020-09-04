@@ -1,8 +1,8 @@
 <?php
 /**
- * @package   WoOSH! Auto Update Tester
+ * @package   FFWP Auto Update Tester
  * @author    Daan van den Bergh
- *            https://woosh.dev
+ *            https://ffwp.dev
  *            https://daan.dev
  * @copyright © 2020 Daan van den Bergh
  * @license   BY-NC-ND-4.0
@@ -11,13 +11,19 @@
 
 defined('ABSPATH') || exit;
 
-class WooshAutoUpdateTester
+class FfwpAutoUpdateTester
 {
+    /**
+     * FfwpAutoUpdateTester constructor.
+     */
     public function __construct()
     {
         $this->init();
     }
 
+    /**
+     *
+     */
     private function init()
     {
         if (is_admin()) {
@@ -25,8 +31,11 @@ class WooshAutoUpdateTester
         }
     }
 
+    /**
+     * @return FfwpAutoUpdateTester_Admin
+     */
     private function do_admin()
     {
-        return new WooshAutoUpdateTester_Admin();
+        return new FfwpAutoUpdateTester_Admin();
     }
 }
